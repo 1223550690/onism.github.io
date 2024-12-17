@@ -153,12 +153,19 @@
   const $body = document.body
   const preloader = {
     endLoading: () => {
-      $body.style.overflow = 'auto'
+      $body.style.overflow = 'auto';
+      $loadingBox.style.transition = 'opacity 3s ease 0s'
+      $loadingBox.style.opacity = '0';
       $loadingBox.classList.add('loaded')
-    },  
+      setTimeout(function(){
+        $loadingBox.classList.add("loaded")
+      }, 3000);
+    },
     initLoading: () => {
-      $body.style.overflow = ''
-      $loadingBox.classList.remove('loaded')
+      $body.style.overflow = '';
+      $loadingBox.style.transition = ''
+      $loadingBox.style.opacity = '1';
+      $loadingBox.classList.remove('loaded');
     }
   }
 

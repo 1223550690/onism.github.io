@@ -3761,7 +3761,7 @@ figure.highlight pre .javascript .function {
   width: 100%;
 }
 #loading-box {
-  --orbit-radius: 78px;
+  --orbit-radius: 38px;
   background: #000;
   position: fixed;
   z-index: 1000;
@@ -3863,11 +3863,11 @@ figure.highlight pre .javascript .function {
 }
 @-moz-keyframes orbit {
   0% {
-    -webkit-transform: rotate(225deg) translateX(--orbit-radius);
-    -moz-transform: rotate(225deg) translateX(--orbit-radius);
-    -o-transform: rotate(225deg) translateX(--orbit-radius);
-    -ms-transform: rotate(225deg) translateX(--orbit-radius);
-    transform: rotate(225deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(225deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(225deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(225deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(225deg) translateX(var(--orbit-radius));
+    transform: rotate(225deg) translateX(var(--orbit-radius));
     opacity: 1;
     -ms-filter: none;
     filter: none;
@@ -3878,11 +3878,11 @@ figure.highlight pre .javascript .function {
     animation-timing-function: ease-out;
   }
   7% {
-    -webkit-transform: rotate(345deg) translateX(--orbit-radius);
-    -moz-transform: rotate(345deg) translateX(--orbit-radius);
-    -o-transform: rotate(345deg) translateX(--orbit-radius);
-    -ms-transform: rotate(345deg) translateX(--orbit-radius);
-    transform: rotate(345deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(345deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(345deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(345deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(345deg) translateX(var(--orbit-radius));
+    transform: rotate(345deg) translateX(var(--orbit-radius));
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
     -o-animation-timing-function: linear;
@@ -3890,11 +3890,11 @@ figure.highlight pre .javascript .function {
     animation-timing-function: linear;
   }
   30% {
-    -webkit-transform: rotate(455deg) translateX(--orbit-radius);
-    -moz-transform: rotate(455deg) translateX(--orbit-radius);
-    -o-transform: rotate(455deg) translateX(--orbit-radius);
-    -ms-transform: rotate(455deg) translateX(--orbit-radius);
-    transform: rotate(455deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(455deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(455deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(455deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(455deg) translateX(var(--orbit-radius));
+    transform: rotate(455deg) translateX(var(--orbit-radius));
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
     -o-animation-timing-function: ease-in-out;
@@ -3902,11 +3902,11 @@ figure.highlight pre .javascript .function {
     animation-timing-function: ease-in-out;
   }
   39% {
-    -webkit-transform: rotate(690deg) translateX(--orbit-radius);
-    -moz-transform: rotate(690deg) translateX(--orbit-radius);
-    -o-transform: rotate(690deg) translateX(--orbit-radius);
-    -ms-transform: rotate(690deg) translateX(--orbit-radius);
-    transform: rotate(690deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(690deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(690deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(690deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(690deg) translateX(var(--orbit-radius));
+    transform: rotate(690deg) translateX(var(--orbit-radius));
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
     -o-animation-timing-function: linear;
@@ -3914,11 +3914,11 @@ figure.highlight pre .javascript .function {
     animation-timing-function: linear;
   }
   70% {
-    -webkit-transform: rotate(815deg) translateX(--orbit-radius);
-    -moz-transform: rotate(815deg) translateX(--orbit-radius);
-    -o-transform: rotate(815deg) translateX(--orbit-radius);
-    -ms-transform: rotate(815deg) translateX(--orbit-radius);
-    transform: rotate(815deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(815deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(815deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(815deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(815deg) translateX(var(--orbit-radius));
+    transform: rotate(815deg) translateX(var(--orbit-radius));
     opacity: 1;
     -ms-filter: none;
     filter: none;
@@ -3929,11 +3929,11 @@ figure.highlight pre .javascript .function {
     animation-timing-function: ease-out;
   }
   75% {
-    -webkit-transform: rotate(945deg) translateX(--orbit-radius);
-    -moz-transform: rotate(945deg) translateX(--orbit-radius);
-    -o-transform: rotate(945deg) translateX(--orbit-radius);
-    -ms-transform: rotate(945deg) translateX(--orbit-radius);
-    transform: rotate(945deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(945deg) translateX(var(--orbit-radius));
+    transform: rotate(945deg) translateX(var(--orbit-radius));
     -webkit-animation-timing-function: ease-out;
     -moz-animation-timing-function: ease-out;
     -o-animation-timing-function: ease-out;
@@ -3941,21 +3941,21 @@ figure.highlight pre .javascript .function {
     animation-timing-function: ease-out;
   }
   76% {
-    -webkit-transform: rotate(945deg) translateX(--orbit-radius);
-    -moz-transform: rotate(945deg) translateX(--orbit-radius);
-    -o-transform: rotate(945deg) translateX(--orbit-radius);
-    -ms-transform: rotate(945deg) translateX(--orbit-radius);
-    transform: rotate(945deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(945deg) translateX(var(--orbit-radius));
+    transform: rotate(945deg) translateX(var(--orbit-radius));
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
   }
   100% {
-    -webkit-transform: rotate(945deg) translateX(--orbit-radius);
-    -moz-transform: rotate(945deg) translateX(--orbit-radius);
-    -o-transform: rotate(945deg) translateX(--orbit-radius);
-    -ms-transform: rotate(945deg) translateX(--orbit-radius);
-    transform: rotate(945deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(945deg) translateX(var(--orbit-radius));
+    transform: rotate(945deg) translateX(var(--orbit-radius));
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
@@ -3963,11 +3963,11 @@ figure.highlight pre .javascript .function {
 }
 @-webkit-keyframes orbit {
   0% {
-    -webkit-transform: rotate(225deg) translateX(--orbit-radius);
-    -moz-transform: rotate(225deg) translateX(--orbit-radius);
-    -o-transform: rotate(225deg) translateX(--orbit-radius);
-    -ms-transform: rotate(225deg) translateX(--orbit-radius);
-    transform: rotate(225deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(225deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(225deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(225deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(225deg) translateX(var(--orbit-radius));
+    transform: rotate(225deg) translateX(var(--orbit-radius));
     opacity: 1;
     -ms-filter: none;
     filter: none;
@@ -3978,11 +3978,11 @@ figure.highlight pre .javascript .function {
     animation-timing-function: ease-out;
   }
   7% {
-    -webkit-transform: rotate(345deg) translateX(--orbit-radius);
-    -moz-transform: rotate(345deg) translateX(--orbit-radius);
-    -o-transform: rotate(345deg) translateX(--orbit-radius);
-    -ms-transform: rotate(345deg) translateX(--orbit-radius);
-    transform: rotate(345deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(345deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(345deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(345deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(345deg) translateX(var(--orbit-radius));
+    transform: rotate(345deg) translateX(var(--orbit-radius));
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
     -o-animation-timing-function: linear;
@@ -3990,11 +3990,11 @@ figure.highlight pre .javascript .function {
     animation-timing-function: linear;
   }
   30% {
-    -webkit-transform: rotate(455deg) translateX(--orbit-radius);
-    -moz-transform: rotate(455deg) translateX(--orbit-radius);
-    -o-transform: rotate(455deg) translateX(--orbit-radius);
-    -ms-transform: rotate(455deg) translateX(--orbit-radius);
-    transform: rotate(455deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(455deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(455deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(455deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(455deg) translateX(var(--orbit-radius));
+    transform: rotate(455deg) translateX(var(--orbit-radius));
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
     -o-animation-timing-function: ease-in-out;
@@ -4002,11 +4002,11 @@ figure.highlight pre .javascript .function {
     animation-timing-function: ease-in-out;
   }
   39% {
-    -webkit-transform: rotate(690deg) translateX(--orbit-radius);
-    -moz-transform: rotate(690deg) translateX(--orbit-radius);
-    -o-transform: rotate(690deg) translateX(--orbit-radius);
-    -ms-transform: rotate(690deg) translateX(--orbit-radius);
-    transform: rotate(690deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(690deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(690deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(690deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(690deg) translateX(var(--orbit-radius));
+    transform: rotate(690deg) translateX(var(--orbit-radius));
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
     -o-animation-timing-function: linear;
@@ -4014,11 +4014,11 @@ figure.highlight pre .javascript .function {
     animation-timing-function: linear;
   }
   70% {
-    -webkit-transform: rotate(815deg) translateX(--orbit-radius);
-    -moz-transform: rotate(815deg) translateX(--orbit-radius);
-    -o-transform: rotate(815deg) translateX(--orbit-radius);
-    -ms-transform: rotate(815deg) translateX(--orbit-radius);
-    transform: rotate(815deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(815deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(815deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(815deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(815deg) translateX(var(--orbit-radius));
+    transform: rotate(815deg) translateX(var(--orbit-radius));
     opacity: 1;
     -ms-filter: none;
     filter: none;
@@ -4029,11 +4029,11 @@ figure.highlight pre .javascript .function {
     animation-timing-function: ease-out;
   }
   75% {
-    -webkit-transform: rotate(945deg) translateX(--orbit-radius);
-    -moz-transform: rotate(945deg) translateX(--orbit-radius);
-    -o-transform: rotate(945deg) translateX(--orbit-radius);
-    -ms-transform: rotate(945deg) translateX(--orbit-radius);
-    transform: rotate(945deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(945deg) translateX(var(--orbit-radius));
+    transform: rotate(945deg) translateX(var(--orbit-radius));
     -webkit-animation-timing-function: ease-out;
     -moz-animation-timing-function: ease-out;
     -o-animation-timing-function: ease-out;
@@ -4041,21 +4041,21 @@ figure.highlight pre .javascript .function {
     animation-timing-function: ease-out;
   }
   76% {
-    -webkit-transform: rotate(945deg) translateX(--orbit-radius);
-    -moz-transform: rotate(945deg) translateX(--orbit-radius);
-    -o-transform: rotate(945deg) translateX(--orbit-radius);
-    -ms-transform: rotate(945deg) translateX(--orbit-radius);
-    transform: rotate(945deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(945deg) translateX(var(--orbit-radius));
+    transform: rotate(945deg) translateX(var(--orbit-radius));
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
   }
   100% {
-    -webkit-transform: rotate(945deg) translateX(--orbit-radius);
-    -moz-transform: rotate(945deg) translateX(--orbit-radius);
-    -o-transform: rotate(945deg) translateX(--orbit-radius);
-    -ms-transform: rotate(945deg) translateX(--orbit-radius);
-    transform: rotate(945deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(945deg) translateX(var(--orbit-radius));
+    transform: rotate(945deg) translateX(var(--orbit-radius));
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
@@ -4063,11 +4063,11 @@ figure.highlight pre .javascript .function {
 }
 @-o-keyframes orbit {
   0% {
-    -webkit-transform: rotate(225deg) translateX(--orbit-radius);
-    -moz-transform: rotate(225deg) translateX(--orbit-radius);
-    -o-transform: rotate(225deg) translateX(--orbit-radius);
-    -ms-transform: rotate(225deg) translateX(--orbit-radius);
-    transform: rotate(225deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(225deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(225deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(225deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(225deg) translateX(var(--orbit-radius));
+    transform: rotate(225deg) translateX(var(--orbit-radius));
     opacity: 1;
     -ms-filter: none;
     filter: none;
@@ -4078,11 +4078,11 @@ figure.highlight pre .javascript .function {
     animation-timing-function: ease-out;
   }
   7% {
-    -webkit-transform: rotate(345deg) translateX(--orbit-radius);
-    -moz-transform: rotate(345deg) translateX(--orbit-radius);
-    -o-transform: rotate(345deg) translateX(--orbit-radius);
-    -ms-transform: rotate(345deg) translateX(--orbit-radius);
-    transform: rotate(345deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(345deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(345deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(345deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(345deg) translateX(var(--orbit-radius));
+    transform: rotate(345deg) translateX(var(--orbit-radius));
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
     -o-animation-timing-function: linear;
@@ -4090,11 +4090,11 @@ figure.highlight pre .javascript .function {
     animation-timing-function: linear;
   }
   30% {
-    -webkit-transform: rotate(455deg) translateX(--orbit-radius);
-    -moz-transform: rotate(455deg) translateX(--orbit-radius);
-    -o-transform: rotate(455deg) translateX(--orbit-radius);
-    -ms-transform: rotate(455deg) translateX(--orbit-radius);
-    transform: rotate(455deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(455deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(455deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(455deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(455deg) translateX(var(--orbit-radius));
+    transform: rotate(455deg) translateX(var(--orbit-radius));
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
     -o-animation-timing-function: ease-in-out;
@@ -4102,11 +4102,11 @@ figure.highlight pre .javascript .function {
     animation-timing-function: ease-in-out;
   }
   39% {
-    -webkit-transform: rotate(690deg) translateX(--orbit-radius);
-    -moz-transform: rotate(690deg) translateX(--orbit-radius);
-    -o-transform: rotate(690deg) translateX(--orbit-radius);
-    -ms-transform: rotate(690deg) translateX(--orbit-radius);
-    transform: rotate(690deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(690deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(690deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(690deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(690deg) translateX(var(--orbit-radius));
+    transform: rotate(690deg) translateX(var(--orbit-radius));
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
     -o-animation-timing-function: linear;
@@ -4114,11 +4114,11 @@ figure.highlight pre .javascript .function {
     animation-timing-function: linear;
   }
   70% {
-    -webkit-transform: rotate(815deg) translateX(--orbit-radius);
-    -moz-transform: rotate(815deg) translateX(--orbit-radius);
-    -o-transform: rotate(815deg) translateX(--orbit-radius);
-    -ms-transform: rotate(815deg) translateX(--orbit-radius);
-    transform: rotate(815deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(815deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(815deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(815deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(815deg) translateX(var(--orbit-radius));
+    transform: rotate(815deg) translateX(var(--orbit-radius));
     opacity: 1;
     -ms-filter: none;
     filter: none;
@@ -4129,11 +4129,11 @@ figure.highlight pre .javascript .function {
     animation-timing-function: ease-out;
   }
   75% {
-    -webkit-transform: rotate(945deg) translateX(--orbit-radius);
-    -moz-transform: rotate(945deg) translateX(--orbit-radius);
-    -o-transform: rotate(945deg) translateX(--orbit-radius);
-    -ms-transform: rotate(945deg) translateX(--orbit-radius);
-    transform: rotate(945deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(945deg) translateX(var(--orbit-radius));
+    transform: rotate(945deg) translateX(var(--orbit-radius));
     -webkit-animation-timing-function: ease-out;
     -moz-animation-timing-function: ease-out;
     -o-animation-timing-function: ease-out;
@@ -4141,21 +4141,21 @@ figure.highlight pre .javascript .function {
     animation-timing-function: ease-out;
   }
   76% {
-    -webkit-transform: rotate(945deg) translateX(--orbit-radius);
-    -moz-transform: rotate(945deg) translateX(--orbit-radius);
-    -o-transform: rotate(945deg) translateX(--orbit-radius);
-    -ms-transform: rotate(945deg) translateX(--orbit-radius);
-    transform: rotate(945deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(945deg) translateX(var(--orbit-radius));
+    transform: rotate(945deg) translateX(var(--orbit-radius));
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
   }
   100% {
-    -webkit-transform: rotate(945deg) translateX(--orbit-radius);
-    -moz-transform: rotate(945deg) translateX(--orbit-radius);
-    -o-transform: rotate(945deg) translateX(--orbit-radius);
-    -ms-transform: rotate(945deg) translateX(--orbit-radius);
-    transform: rotate(945deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(945deg) translateX(var(--orbit-radius));
+    transform: rotate(945deg) translateX(var(--orbit-radius));
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
@@ -4163,11 +4163,11 @@ figure.highlight pre .javascript .function {
 }
 @keyframes orbit {
   0% {
-    -webkit-transform: rotate(225deg) translateX(--orbit-radius);
-    -moz-transform: rotate(225deg) translateX(--orbit-radius);
-    -o-transform: rotate(225deg) translateX(--orbit-radius);
-    -ms-transform: rotate(225deg) translateX(--orbit-radius);
-    transform: rotate(225deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(225deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(225deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(225deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(225deg) translateX(var(--orbit-radius));
+    transform: rotate(225deg) translateX(var(--orbit-radius));
     opacity: 1;
     -ms-filter: none;
     filter: none;
@@ -4178,11 +4178,11 @@ figure.highlight pre .javascript .function {
     animation-timing-function: ease-out;
   }
   7% {
-    -webkit-transform: rotate(345deg) translateX(--orbit-radius);
-    -moz-transform: rotate(345deg) translateX(--orbit-radius);
-    -o-transform: rotate(345deg) translateX(--orbit-radius);
-    -ms-transform: rotate(345deg) translateX(--orbit-radius);
-    transform: rotate(345deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(345deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(345deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(345deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(345deg) translateX(var(--orbit-radius));
+    transform: rotate(345deg) translateX(var(--orbit-radius));
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
     -o-animation-timing-function: linear;
@@ -4190,11 +4190,11 @@ figure.highlight pre .javascript .function {
     animation-timing-function: linear;
   }
   30% {
-    -webkit-transform: rotate(455deg) translateX(--orbit-radius);
-    -moz-transform: rotate(455deg) translateX(--orbit-radius);
-    -o-transform: rotate(455deg) translateX(--orbit-radius);
-    -ms-transform: rotate(455deg) translateX(--orbit-radius);
-    transform: rotate(455deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(455deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(455deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(455deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(455deg) translateX(var(--orbit-radius));
+    transform: rotate(455deg) translateX(var(--orbit-radius));
     -webkit-animation-timing-function: ease-in-out;
     -moz-animation-timing-function: ease-in-out;
     -o-animation-timing-function: ease-in-out;
@@ -4202,11 +4202,11 @@ figure.highlight pre .javascript .function {
     animation-timing-function: ease-in-out;
   }
   39% {
-    -webkit-transform: rotate(690deg) translateX(--orbit-radius);
-    -moz-transform: rotate(690deg) translateX(--orbit-radius);
-    -o-transform: rotate(690deg) translateX(--orbit-radius);
-    -ms-transform: rotate(690deg) translateX(--orbit-radius);
-    transform: rotate(690deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(690deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(690deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(690deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(690deg) translateX(var(--orbit-radius));
+    transform: rotate(690deg) translateX(var(--orbit-radius));
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
     -o-animation-timing-function: linear;
@@ -4214,11 +4214,11 @@ figure.highlight pre .javascript .function {
     animation-timing-function: linear;
   }
   70% {
-    -webkit-transform: rotate(815deg) translateX(--orbit-radius);
-    -moz-transform: rotate(815deg) translateX(--orbit-radius);
-    -o-transform: rotate(815deg) translateX(--orbit-radius);
-    -ms-transform: rotate(815deg) translateX(--orbit-radius);
-    transform: rotate(815deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(815deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(815deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(815deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(815deg) translateX(var(--orbit-radius));
+    transform: rotate(815deg) translateX(var(--orbit-radius));
     opacity: 1;
     -ms-filter: none;
     filter: none;
@@ -4229,11 +4229,11 @@ figure.highlight pre .javascript .function {
     animation-timing-function: ease-out;
   }
   75% {
-    -webkit-transform: rotate(945deg) translateX(--orbit-radius);
-    -moz-transform: rotate(945deg) translateX(--orbit-radius);
-    -o-transform: rotate(945deg) translateX(--orbit-radius);
-    -ms-transform: rotate(945deg) translateX(--orbit-radius);
-    transform: rotate(945deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(945deg) translateX(var(--orbit-radius));
+    transform: rotate(945deg) translateX(var(--orbit-radius));
     -webkit-animation-timing-function: ease-out;
     -moz-animation-timing-function: ease-out;
     -o-animation-timing-function: ease-out;
@@ -4241,21 +4241,21 @@ figure.highlight pre .javascript .function {
     animation-timing-function: ease-out;
   }
   76% {
-    -webkit-transform: rotate(945deg) translateX(--orbit-radius);
-    -moz-transform: rotate(945deg) translateX(--orbit-radius);
-    -o-transform: rotate(945deg) translateX(--orbit-radius);
-    -ms-transform: rotate(945deg) translateX(--orbit-radius);
-    transform: rotate(945deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(945deg) translateX(var(--orbit-radius));
+    transform: rotate(945deg) translateX(var(--orbit-radius));
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
   }
   100% {
-    -webkit-transform: rotate(945deg) translateX(--orbit-radius);
-    -moz-transform: rotate(945deg) translateX(--orbit-radius);
-    -o-transform: rotate(945deg) translateX(--orbit-radius);
-    -ms-transform: rotate(945deg) translateX(--orbit-radius);
-    transform: rotate(945deg) translateX(--orbit-radius);
+    -webkit-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -moz-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -o-transform: rotate(945deg) translateX(var(--orbit-radius));
+    -ms-transform: rotate(945deg) translateX(var(--orbit-radius));
+    transform: rotate(945deg) translateX(var(--orbit-radius));
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
